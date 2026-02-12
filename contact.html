@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Quest Innovative Solutions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navigation Bar -->
+    <header class="sticky-top shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="logo.png" alt="Quest Innovative Solutions Logo" class="me-2"
+                        style="height: 50px; width: auto;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-semibold">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-primary text-white px-3 ms-lg-3"
+                                href="register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Content -->
+    <main class="container py-5 my-5">
+        <div class="text-center mb-5 fade-in-up">
+            <h1 class="fw-bold">Get In Touch</h1>
+            <p class="text-muted">We're here to help you innovate and grow. Reach out to us anytime.</p>
+        </div>
+
+        <div class="row g-5">
+            <!-- Left Column: Contact Details -->
+            <div class="col-md-5">
+                <div class="card border-0 shadow-sm p-4 h-100 fade-in-up" style="animation-delay: 0.1s;">
+                    <h4 class="fw-bold mb-4">Contact Details</h4>
+
+                    <div class="d-flex mb-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                            <img src="https://img.icons8.com/material-rounded/24/0061f2/marker.png" alt="address" />
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Our Office</h6>
+                            <p class="text-muted mb-0">123 Innovation Drive, Tech City, NY 10001</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                            <img src="https://img.icons8.com/material-rounded/24/0061f2/new-post.png" alt="email" />
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Email Us</h6>
+                            <p class="text-muted mb-0">info@questinnovations.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                            <img src="https://img.icons8.com/material-rounded/24/0061f2/phone.png" alt="phone" />
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Call Us</h6>
+                            <p class="text-muted mb-0">+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-top">
+                        <h6 class="fw-bold mb-3">Business Hours</h6>
+                        <p class="text-muted mb-1 d-flex justify-content-between"><span>Mon - Fri:</span> <span>9:00 AM
+                                - 6:00 PM</span></p>
+                        <p class="text-muted mb-0 d-flex justify-content-between"><span>Sat - Sun:</span>
+                            <span>Closed</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Google Maps -->
+            <div class="col-md-7">
+                <div class="card border-0 shadow-sm overflow-hidden h-100 fade-in-up" style="animation-delay: 0.2s;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1684300000000!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-auto">
+        <div class="container text-center">
+            <h5 class="fw-bold mb-3">Quest Innovative Solutions</h5>
+            <p class="text-muted mb-4">Empowering innovation through design and technology.</p>
+            <p class="mb-0">&copy; <span id="currentYear"></span> Quest Innovative Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
