@@ -236,7 +236,8 @@ footer {
 
     .carousel-caption {
         left: 5%;
-        bottom: 5%;
+        bottom: 12%;
+        /* Moved up from 5% */
         max-width: 90%;
     }
 
